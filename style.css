@@ -1,0 +1,19 @@
+body {margin:0; padding:0;}
+
+#donZoomImageContainer li {
+	display: inline-block;
+	width: 130px;
+	overflow: hidden;
+	background: #333;
+}
+
+#donZoomImageContainer li img {
+	width: 100%;
+	opacity: 1;
+	transition: opacity 1s;
+}
+
+#donZoomImageContainer li img:hover{
+	cursor: crosshair;
+	opacity: 0.5;
+}

@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta>
+
+		<link rel="stylesheet" type="text/css" href="style.css">
+	</head>
+	<body>
+		
+		<div id="donZoomImageContainer">
+			<ul>
+				<li><img src="imgs/worlds-largest-gummy-worm-1.jpg" alt=""></li>
+				<li><img src="imgs/liger-largest-of-all-felines1.jpg" alt=""></li>
+				<li><img src="imgs/Blue_whale_as_seen_from_spotter_aircraft._The_world's_largest_animal_0877.jpg" alt=""></li>
+			</ul>
+		</div>
+
+		<script src="//ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
+		<script src="scripts.js"></script>
+		<script>
+		new zoom({
+			listParent : 'donZoomImageContainer',
+			relatedData : 'data-id',
+			showPosData : true
+		});
+		</script>
+	</body>
+</html>
